@@ -1,0 +1,29 @@
+<!-- ) Dado: consumo em KWH. Construa um algoritmo para calcular a conta de
+energia elétrica de uma fábrica, conforme a tabela a seguir:
+Consumo em KwH Valor por KwH (em R$)
+
+Até 300................................. 1,25
+De 301 até 500..................... 1,50
+De 501 até 600..................... 1,75
+De 601 até 800..................... 2,00
+Acima de 800....................... 2,50
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript6.js"></script>
+    <title>Calculara a conta de energia</title>
+</head>
+<body>
+    <h1>Calcular a a conta de energia</h1>
+        <input type="number" id="KWH" required><br>
+    <p>
+        <button onclick="verificar()">Calcular!</button>
+        <button onclick="limpar()">Limpar!</button>
+    </p>
+</body>
+</html>
